@@ -1,0 +1,15 @@
+[project]
+name = "buttermfaf"
+version = "0.1.0"
+description = "Python library for parsing Multi-File Archive Format (MFAF) files"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "msgpack>=1.0.0",
+    "pytest>=9.0.2",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=6.0",
+]
